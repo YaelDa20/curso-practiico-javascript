@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retos | curso practico JavaScript</title>
+</head>
+<body>
+    <header>
+        <h1>Reto 2: Cupones</h1>
+        <p>Estte es el seugndo reto que tenemos con cupones</p>
+    </header>
+    <section>
+        <h2>Calcula los precios a pagar de tus productos con descuentos</h2>
+        
+        <form action="">
+            <label for="inputPrice">Escribe el precio de tu producto</label>
+            <input type="number" id="inputPrice">
+            <br/>
+            <label for="inputDescuento">Escribe el descuento de tu producto</label>
+            <input type="number" id="inputDescuento">
+            <br/>
+            <label for="inputCupon">Escribe tu cupon de descuento</label>
+            <input type="text" id="inputCupon">
+            <br/>
+            <button type="button" onClick="priceDiscount()">Calcular precio con descuento</button>
+
+        </form>
+
+        <p id="Result"></p>
+    </section>
+    <script src="./reto.js"></script>
+
+</body>
+</html>
